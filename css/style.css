@@ -7,7 +7,7 @@
 }
 
 .header1 {
-    background-color: lightgrey;
+    background-color: var(--color-primary);
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
