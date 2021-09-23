@@ -86,3 +86,67 @@ body {
   height: 50px;
   border-radius: 50px;
 }
+
+
+.index{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+
+} 
+
+.index h2{
+  margin-top: 2rem;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+.index h1{
+  text-decoration: none;
+  color: #000;
+  margin-left: 2rem;
+}
+ 
+.index a {
+  display: flex;
+  margin: 5rem;
+  align-items: center;
+  justify-items: center;
+  border: 0.2rem solid grey;
+  padding: 3rem 3rem 3rem 3rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.naovai {
+  padding-left: 0;
+  margin-top: 1px;
+}
+
+.imagem {
+  margin-left: 5rem;
+  margin-top: 5%;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.voltar {
+
+  margin-left: 1%;
+  border: 0.2rem solid grey;
+  
+  text-decoration: none;
+  color: #000;
+}
+
+
+.linha {
+  display: flex;
+  flex-direction: row;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
