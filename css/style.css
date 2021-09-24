@@ -16,11 +16,9 @@
     height:5rem;
     padding-left: 1rem;
 }
-
-.botao {
+.botao{
     color:black;
     margin-right:0.7rem;
-    text-decoration: none;
 }
 
 body {
@@ -33,8 +31,25 @@ body {
   text-align: center;
 }
 
-#calendario > nav > #title {
+#calendario > nav > #title > a {
   font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+#calendario > nav {
+  padding: 1em;
+}
+
+#calendario > nav > #selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+#day-of-week {
+  font-weight: bold;
 }
 
 #calendario > .period {
@@ -55,7 +70,16 @@ body {
   border-radius: 0.5em;
   text-decoration: none;
 }
-
+/* PÁGINA DAS CONFIGURAÇÕES */
+.summary h1{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.summary {   
+    border-bottom: 0.01rem solid gray;
+    margin: 1rem;    
+} 
 .nome-servico {
   color: rgb(15, 15, 15);
   font-size: 24px;
@@ -91,11 +115,12 @@ body {
 }
 
 
-.index {
+.index{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
+
 } 
 
 .index h2{
@@ -142,7 +167,6 @@ body {
   color: #000;
 }
 
-
 .linha {
   display: flex;
   flex-direction: row;
@@ -160,6 +184,7 @@ body {
   justify-content:center;
   width: 100%;
 }
+
 .grafico {
   width:75%;
   height:15rem;
@@ -168,6 +193,11 @@ body {
   color:chartreuse;
   font-size: x-large;
 }
+.comp {
+  width:70rem;
+  height:30rem;
+}
+
 .fontefinanceiro{
   font-size:large;
   color:black;
