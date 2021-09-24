@@ -177,6 +177,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* PÁGINA DO FINANCEIRO */
 .linha_cent{
   display: flex;
   flex-direction: row;
@@ -184,10 +186,20 @@ body {
   width: 100%;
 }
 
+.grafico {
+  width:75%;
+  height:15rem;
+}
+.fonte_valor{
+  color:chartreuse;
+  font-size: x-large;
+}
 .comp {
   width:70rem;
   height:30rem;
 }
-.fonte_verde{
-  color:chartreuse;
+
+.fontefinanceiro{
+  font-size:large;
+  color:black;
 }
