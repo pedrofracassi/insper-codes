@@ -61,13 +61,14 @@ body {
   padding-left: 0;
 }
 
-#calendario > .period > ul > a > li {
+#calendario > .period > ul > li > a {
   padding: 1em;
   display: inline-block;
   background-color: var(--color-primary);
   width: 100%;
   margin-top: 0.5em;
   border-radius: 0.5em;
+  text-decoration: none;
 }
 /* PÁGINA DAS CONFIGURAÇÕES */
 .summary h1{
@@ -181,7 +182,7 @@ body {
   justify-content:center;
   width: 100%;
 }
-}
+
 .comp {
   width:70rem;
   height:30rem;
