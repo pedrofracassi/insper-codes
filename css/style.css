@@ -54,6 +54,12 @@ body {
   font-weight: bold;
 }
 
+.period-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
 #calendario > .period {
   margin-top: 1em;
 }
