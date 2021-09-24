@@ -33,8 +33,25 @@ body {
   text-align: center;
 }
 
-#calendario > nav > #title {
+#calendario > nav > #title > a {
   font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+#calendario > nav {
+  padding: 1em;
+}
+
+#calendario > nav > #selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+#day-of-week {
+  font-weight: bold;
 }
 
 #calendario > .period {
