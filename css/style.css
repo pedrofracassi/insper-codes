@@ -150,3 +150,17 @@ body {
   display: flex;
   flex-direction: column;
 }
+.linha_cent{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 100%;
+}
+}
+.comp {
+  width:70rem;
+  height:30rem;
+}
+.fonte_verde{
+  color:chartreuse;
+}
