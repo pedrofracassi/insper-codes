@@ -16,11 +16,9 @@
     height:5rem;
     padding-left: 1rem;
 }
-
-.botao {
+.botao{
     color:black;
     margin-right:0.7rem;
-    text-decoration: none;
 }
 
 body {
@@ -63,16 +61,24 @@ body {
   padding-left: 0;
 }
 
-#calendario > .period > ul > li > a {
+#calendario > .period > ul > a > li {
   padding: 1em;
   display: inline-block;
   background-color: var(--color-primary);
   width: 100%;
   margin-top: 0.5em;
   border-radius: 0.5em;
-  text-decoration: none;
 }
-
+/* PÁGINA DAS CONFIGURAÇÕES */
+.summary h1{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.summary {   
+    border-bottom: 0.01rem solid gray;
+    margin: 1rem;    
+} 
 .nome-servico {
   color: rgb(15, 15, 15);
   font-size: 24px;
@@ -108,11 +114,12 @@ body {
 }
 
 
-.index {
+.index{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
+
 } 
 
 .index h2{
@@ -159,7 +166,6 @@ body {
   color: #000;
 }
 
-
 .linha {
   display: flex;
   flex-direction: row;
@@ -168,4 +174,18 @@ body {
 .coluna {
   display: flex;
   flex-direction: column;
+}
+.linha_cent{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 100%;
+}
+}
+.comp {
+  width:70rem;
+  height:30rem;
+}
+.fonte_verde{
+  color:chartreuse;
 }
