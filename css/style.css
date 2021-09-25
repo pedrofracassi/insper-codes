@@ -229,3 +229,49 @@ body {
   font-size:large;
   color:black;
 }
+
+/* PÁGINA DAS CALENDARIO */
+.coluna_calendario{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  
+
+}
+
+.cabecalho{
+  background-color: lightgrey;
+  padding-left: 0.99rem;
+  padding-right:0.99rem;
+  padding-top: 1rem;
+  font-size:large;
+}
+
+.linha_dias{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width:100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.linha_diasc{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width:100%;
+  padding-bottom: 1rem;
+  background-color: lightgrey;
+}
+
+.linha_dias a{
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color:black;
+}
+.p{
+  padding-bottom: 1rem;
+  font-size:x-large;
+}
