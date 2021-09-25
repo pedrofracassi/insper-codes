@@ -13,7 +13,7 @@
     justify-content: flex-start;
     align-items: center;
     width:100%;
-    height:5rem;
+    height: 5rem;
     padding-left: 1rem;
 }
 .botao{
@@ -38,18 +38,26 @@ body {
 }
 
 #calendario > nav {
-  padding: 1em;
+  margin-top: 1em;
 }
 
 #calendario > nav > #selector {
   display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 0.5em;
+  align-items: center;
 }
 
 #day-of-week {
   font-weight: bold;
+}
+
+.period-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 0.5em;
 }
 
 #calendario > .period {
@@ -61,18 +69,38 @@ body {
   padding-left: 0;
 }
 
+#calendario {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#calendario > .period {
+  width: 100%;
+}
+
 #calendario > .period > ul > li > a {
-  padding: 1em;
   display: inline-block;
   background-color: var(--color-primary);
-  width: 100%;
   margin-top: 0.5em;
   border-radius: 0.5em;
   text-decoration: none;
+  width: 100%;
+}
+
+.client-card-container {
+  margin: 1em;
+}
+
+.nome-servico {
+  color: rgb(15, 15, 15);
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  margin-top: 0.5em;
 }
 
 /* PÁGINA DAS CONFIGURAÇÕES */
-.summary h1{
+.summary > h1 {
     font-weight: bolder;
     font-size: 1rem;
     margin: 1rem;
@@ -81,12 +109,6 @@ body {
     border-bottom: 0.01rem solid gray;
     margin: 1rem;    
 } 
-.nome-servico {
-  color: rgb(15, 15, 15);
-  font-size: 24px;
-  margin: 0;
-  font-weight: bold;
-}
 
 .client-info {
   display: flex;
@@ -280,3 +302,48 @@ body {
 }
 
 
+/* PÁGINA DAS CALENDARIO */
+.coluna_calendario{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  
+
+}
+
+.cabecalho{
+  background-color: lightgrey;
+  padding-left: 0.99rem;
+  padding-right:0.99rem;
+  padding-top: 1rem;
+  font-size:large;
+}
+
+.linha_dias{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width:100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.linha_diasc{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width:100%;
+  padding-bottom: 1rem;
+  background-color: lightgrey;
+}
+
+.linha_dias a{
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color:black;
+}
+.p{
+  padding-bottom: 1rem;
+  font-size:x-large;
+}
