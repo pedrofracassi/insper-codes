@@ -355,7 +355,39 @@ body {
   margin: 1rem;
   background-color: lightgrey;
 }
+.inicial{
+  font-weight: bolder;
+  margin:1rem;
+  font-size: 2rem;
+}
+.section5 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.section5 img{
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 
+}
+.texto1 {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-left:0.5rem;
+}
+.texto1 a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
 
 
 /* PÁGINA Estoque */
@@ -365,10 +397,65 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-li {
-  padding-top: 3rem;
+.rapaz {
+  padding-top: 2.5rem;
 }
+
+.principal{
+  font-size: 2rem;
+  background-color: lightgrey;
+}
+
+.nomezinhos {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.linha1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.coluna12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coluna12 h2{
+  background-color: lightgrey;
+  padding-right: 5.4rem;
+  padding-left: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+
+}
+.coluna1 h2{
+  background-color: lightgrey;
+  padding-right: 11rem;
+  padding-left: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.coluna1 h3{
+  background-color: lightgrey;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+}
+
+
 /* PÁGINA BIANCA */
 .colunabianca {
   display:flex;
