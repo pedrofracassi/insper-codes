@@ -98,14 +98,26 @@ body {
 }
 
 /* PÁGINA DAS CONFIGURAÇÕES */
-.summary > h1 {
-    font-weight: bolder;
-    font-size: 1rem;
-    margin: 1rem;
+.summary h1 {
+  font-weight: bolder;
+  font-size: 1rem;
+  margin: 1rem;
 }
-.summary {   
-    border-bottom: 0.01rem solid gray;
-    margin: 1rem;    
+.summary {
+  border-bottom: 0.01rem solid gray;
+  margin: 1rem;
+} 
+.section6 {
+display: flex;
+flex-direction: row;
+}
+.section6 img{
+width: 1.2rem;
+height: 1.2rem;
+margin-left:1rem;
+}
+.texto6 {
+margin-left:0.5rem;
 } 
 
 .client-info {
@@ -179,9 +191,16 @@ body {
   flex-direction: row;
   justify-items: center;
   margin-top: 15%;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-top: 90%;
+  margin-bottom: 5%;
+}
 .alinha{
   display: flex;
   flex-direction: column;
@@ -199,7 +218,7 @@ body {
   font-size: 2rem;
   background-color: red;
   margin-left: 1.2rem;
-  margin-top: 55%;
+
 }
 
 .arrasta {
