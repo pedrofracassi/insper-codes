@@ -369,3 +369,10 @@ body {
 li {
   padding-top: 3rem;
 }
+/* PÁGINA BIANCA */
+.centraliza {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
