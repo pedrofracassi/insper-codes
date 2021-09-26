@@ -409,15 +409,22 @@ li {
   padding:0.5rem;
 }
 
+
 .linha{
   display: flex;
   flex-direction: row;
+}
+.linhafi{
+  display: flex;
+  flex-direction: row;
+  padding-left:0.7rem;
+  
 }
 .vrm{
   color:red
 }
 .verde{
-  color:green
+  color:green;
 }
 .txtp{
   font-size: large;
