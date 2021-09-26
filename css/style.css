@@ -135,7 +135,7 @@ body {
   border-radius: 50px;
 }
 
-
+/* PÁGINA MENU */
 .header2 {
   background-color: var(--color-primary);
   display:flex;
@@ -166,7 +166,6 @@ body {
   font-size: 2rem ;
 
 }
-
 .menuL {
   display: flex;
   flex-direction: row;
@@ -210,6 +209,8 @@ body {
   text-decoration: none;
 }
 
+
+/* PÁGINA INDEX */
 .superior {
   display: flex;
   flex-direction: row;
@@ -228,7 +229,6 @@ body {
   text-decoration: none;
 
 } 
-
 .superior > div {
   display: flex;
   flex-direction: column;
@@ -248,7 +248,6 @@ body {
   height: 8rem;
   border-radius: 50%;
 }
-
 .index a {
   display: flex;
   margin: 3rem;
@@ -266,15 +265,6 @@ body {
   color: #000;
 }
 
-.linha {
-  display: flex;
-  flex-direction: row;
-}
-
-.coluna {
-  display: flex;
-  flex-direction: column;
-}
 
 /* PÁGINA DO FINANCEIRO */
 .linha_cent{
@@ -347,7 +337,6 @@ body {
   padding-bottom: 1rem;
   font-size:x-large;
 }
-
 
 .pesquisa{
   display: flex;
