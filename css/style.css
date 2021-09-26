@@ -338,6 +338,8 @@ body {
   font-size:x-large;
 }
 
+/* PÁGINA CLIENTES */
+
 .pesquisa{
   display: flex;
   flex-direction: column;
@@ -354,6 +356,19 @@ body {
   background-color: lightgrey;
 }
 
+
+
+/* PÁGINA Estoque */
+
+.sumario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  padding-top: 3rem;
+}
 /* PÁGINA BIANCA */
 .colunabianca {
   display:flex;
