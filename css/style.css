@@ -353,3 +353,11 @@ body {
   margin: 1rem;
   background-color: lightgrey;
 }
+
+/* PÁGINA BIANCA */
+.centraliza {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
