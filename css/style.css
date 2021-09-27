@@ -23,6 +23,64 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* INDEX */
+
+main#index {
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+main#index > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main#index > div#main-menu{
+  margin-top: 1em;
+}
+
+main#index > div#main-menu > .menu-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5em;
+  margin-top: 0.5em;
+}
+
+main#index > div#main-menu > .menu-row > a {
+  background-color: var(--color-primary);
+  width: 49%;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main#index > section > div > h2 {
+  font-size: 16pt;
+}
+
+main#index > section > div > h1 {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+main#index > section > img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+
+main#index > .nome {
+  color: rebeccapurple;
+}
+
 /* PÁGINA DO CALENDÁRIO */
 
 #calendario > nav {
@@ -408,6 +466,113 @@ margin-left:0.5rem;
 
 }
 
+/* PAGINA CALENDÁRIO */
+
+#pagina-calendario {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#pagina-calendario > nav > #month {
+  font-size: 16pt;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#pagina-calendario > nav {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#pagina-calendario > table {
+  width: 100%;
+  margin-top: 2em;
+}
+
+#pagina-calendario > table > tbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dot {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;	
+  font-size: 0px;
+  bottom: -4pt;
+  background-color: green;
+  width: 6px;
+  border-radius: 100%;
+  height: 6px;
+}
+
+#pagina-calendario > table > tbody > tr {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#pagina-calendario > table > tbody > tr > th {
+  width: 14.28%;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+#pagina-calendario > table > tbody > tr > td {
+  width: 14.28%;
+  text-align: center;
+}
+
+#pagina-calendario > table > tbody > tr > td > a {
+  color: black;
+  text-decoration: none;
+}
+
+#pagina-calendario > section {
+  width: 100%;
+  margin-top: 1em;
+}
+
+#pagina-calendario > section > .row-horarios {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#pagina-calendario > section > .row-horarios > .horario {
+  background-color: #B0ED9B;
+  width: 100%;
+  margin: 0.2em;
+  height: 3em;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#pagina-calendario > p {
+  margin-top: 3em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.disabled {
+  background-color: #C4C4C4 !important;
+}
+
+.next-month {
+  color: lightgray
+}
 
 /* PÁGINA Estoque */
 
