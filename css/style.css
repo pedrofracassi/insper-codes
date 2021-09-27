@@ -31,7 +31,7 @@ main#index {
   padding-right: 1em;
 }
 
-main#index > section {
+main#index > div#welcome {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -62,16 +62,16 @@ main#index > div#main-menu > .menu-row > a {
   font-weight: bold;
 }
 
-main#index > section > div > h2 {
+main#index > div#welcome > div > .bomdia {
   font-size: 16pt;
 }
 
-main#index > section > div > h1 {
+main#index > div#welcome > div > .nome-usuario {
   font-size: 24pt;
   font-weight: bold;
 }
 
-main#index > section > img {
+main#index > div#welcome > img {
   width: 4rem;
   height: 4rem;
   border-radius: 100%;
@@ -535,19 +535,19 @@ margin-left:0.5rem;
   text-decoration: none;
 }
 
-#pagina-calendario > section {
+#pagina-calendario > div#seletor-horarios {
   width: 100%;
   margin-top: 1em;
 }
 
-#pagina-calendario > section > .row-horarios {
+#pagina-calendario > div#seletor-horarios > .row-horarios {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 
-#pagina-calendario > section > .row-horarios > .horario {
+#pagina-calendario > div#seletor-horarios > .row-horarios > .horario {
   background-color: #B0ED9B;
   width: 100%;
   margin: 0.2em;
