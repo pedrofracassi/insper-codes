@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Bodoni Moda', 'Old Standard TT', serif;
 }
 
 /* INDEX */
@@ -149,7 +149,7 @@ main#index > .nome {
 
 .nome-servico {
   color: rgb(15, 15, 15);
-  font-size: 2.0064rem;
+  font-size: large;
   margin: 0;
   font-weight: bold;
   margin-top: 0.5em;
@@ -272,6 +272,10 @@ margin-left:0.5rem;
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
+}
+
+.texto{
+  margin-top: 0.3rem;
 }
 .sair {
   font-size: 2rem;
@@ -505,6 +509,7 @@ margin-left:0.5rem;
 #pagina-calendario > table > tbody > tr > td {
   width: 14.28%;
   text-align: center;
+  font-family:'Open Sans','Roboto', sans-serif;
 }
 
 #pagina-calendario > table > tbody > tr > td > a {
@@ -535,6 +540,7 @@ margin-left:0.5rem;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
+  font-family:'Open Sans','Roboto', sans-serif;
 }
 
 #pagina-calendario > p {
@@ -570,7 +576,7 @@ margin-left:0.5rem;
 .nomezinhos {
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .linha1 {
@@ -675,9 +681,11 @@ margin-left:0.5rem;
 }
 .txtp{
   font-size: large;
+  font-weight: bold;
 }
 .txts{
-  font-size:small
+  font-size:small;
+  font-family:'Open Sans','Roboto', sans-serif;
 }
 .his{
   padding:0.5rem;
@@ -710,6 +718,7 @@ margin-left:0.5rem;
 .txtmat{
   font-size: x-large;
   font-weight:bold;
+  
 }
 .txtb{
   font-weight:bold;
