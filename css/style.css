@@ -1,7 +1,7 @@
 :root {
   --color-1: #f0e9dd;
   --color-5: #e2c5c1;
-  --color-4: #b7bb8fe8;
+  --color-4: #b7bb8f;
   --color-3: #caa598;
   --color-2: #ECB4A3;
 }
@@ -361,50 +361,6 @@ margin-left:0.5rem;
   color:black;
 }
 
-
-/* PÁGINA DAS CALENDARIO */
-.coluna_calendario{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.2rem;
-
-}
-
-.cabecalho{
-  padding-left: 0.99rem;
-  padding-right:0.99rem;
-  padding-top: 1rem;
-  font-size:large;
-}
-
-.linha_dias{
-  display: flex;
-  flex-direction: row;
-  border: 1px solid black;
-  width:100%;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-.linha_diasc{
-  display: flex;
-  flex-direction: row;
-  border: 1px solid black;
-  width:100%;
-  padding-bottom: 1rem;
-  
-}
-
-.linha_dias a{
-  padding-left: 1.5rem;
-  padding-right: 1rem;
-  color:black;
-}
-.p{
-  padding-bottom: 1rem;
-  font-size:x-large;
-}
 
 /* PÁGINA CLIENTES */
 
