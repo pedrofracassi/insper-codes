@@ -26,7 +26,6 @@
 body {
   font-family: 'Open Sans','Roboto', sans-serif;
   background-color: var(--color-1);
-
 }
 
 /* INDEX */
@@ -184,13 +183,29 @@ display: flex;
 flex-direction: row;
 }
 .section6 img{
-width: 1.2rem;
+width: 1rem;
 height: 1.2rem;
-margin-left:1rem;
 }
 .texto6 {
 margin-left:0.5rem;
 } 
+
+.barra2{
+  margin-top: 0.1rem;
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  background-color: var(--color-2);
+}
+
+.adicionar {
+  background-color: var(--color-2);
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
 
 /* PÁGINA DAS Cronograma */
 .client-info {
@@ -485,7 +500,7 @@ margin-left:0.5rem;
 #pagina-calendario > table > tbody > tr > td {
   width: 14.28%;
   text-align: center;
-  font-family: 'Open Sans','Roboto', sans-serif;
+  font-family:'Bodoni Moda', 'Old Standard TT', serif;
 }
 
 #pagina-calendario > table > tbody > tr > td > a {
@@ -516,7 +531,7 @@ div#seletor-horarios > .row-horarios > .horario {
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family:'Open Sans','Roboto', sans-serif;
+  font-family:'Bodoni Moda', 'Old Standard TT', serif;
 }
 
 #pagina-calendario > p {
@@ -661,7 +676,7 @@ div#seletor-horarios > .row-horarios > .horario {
 }
 .txts{
   font-size:small;
-  font-family:'Open Sans','Roboto', sans-serif;
+  font-family:'Bodoni Moda', 'Old Standard TT', serif;
 }
 .his{
   padding:0.5rem;
