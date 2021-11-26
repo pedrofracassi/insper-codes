@@ -24,9 +24,8 @@
 }
 
 body {
-  font-family:'Open Sans','Roboto', sans-serif;
+  font-family: 'Open Sans','Roboto', sans-serif;
   background-color: var(--color-1);
-
 }
 
 /* INDEX */
@@ -99,6 +98,9 @@ main#index > .nome {
 }
 
 #calendario > nav > #title > a {
+  background-color: var(--color-2);
+  padding: 0 1rem 0 1rem;
+  border-radius: 1rem;
   font-size: 1.3376rem;
   text-decoration: none;
   color: black;
@@ -463,6 +465,11 @@ margin-left:0.5rem;
   width: 100%;
 }
 
+.caret {
+  font-weight: bold;
+  color: black;
+}
+
 .dot {
   position: relative;
   left: 0;
@@ -501,19 +508,19 @@ margin-left:0.5rem;
   text-decoration: none;
 }
 
-#pagina-calendario > div#seletor-horarios {
+#pagina-calendario > div#container-seletor {
   width: 100%;
   margin-top: 1em;
 }
 
-#pagina-calendario > div#seletor-horarios > .row-horarios {
+div#seletor-horarios > .row-horarios {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 
-#pagina-calendario > div#seletor-horarios > .row-horarios > .horario {
+div#seletor-horarios > .row-horarios > .horario {
   background-color: var(--color-4);
   width: 100%;
   margin: 0.2em;
