@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var t = document.createTextNode("Refresh");
         btn.appendChild(t);
         btn.style.position = "absolute";
-        btn.style.top = "30%";
+        btn.style.top = "40%";
         btn.style.left = "50%";
         btn.style.transform = "translate(-50%, -50%)";
         btn.style.backgroundColor = "#b7bb8f";
