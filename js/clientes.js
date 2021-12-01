@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     input.addEventListener('keyup', function(event) {
         value = input.value;
         key = event.which || event.keyCode;
+        console.log(nomes);
         if (key == 13) {
             for (var i = 0; i < nomes.length; i++) {
-              //console.log(nomes[i].innerHTML);
                 if (nomes[i].innerText == value) {
                     section.style.display = "none";
                     var str = value.split(" ");
@@ -22,14 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     </div>`;
                     document.querySelector(".tela3").innerHTML += nova;
-
                 } else { 
                     section.style.display = "block";
                     section.innerHTML = "Não temos resultado para a pesquisa :(";
                     section.style.textAlign = "center";
-
             }
-            var btn = document.createElement("BUTTON");
+        var btn = document.createElement("BUTTON");
         var t = document.createTextNode("Refresh");
         btn.appendChild(t);
         btn.style.position = "absolute";
@@ -47,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.onclick = function() {
             location.reload();
         }
-            }
-}
+    }
+  }
 
 
 });
