@@ -2,17 +2,14 @@ document.addEventListener('DOMContentLoaded', function() {
     input = document.querySelector('#pesquisa');
     nomes = document.querySelectorAll('.nomes1');
     section = document.querySelector('.tela_main');
-    // get all the names in the list and print them.
     input.addEventListener('keyup', function(event) {
         value = input.value;
         key = event.which || event.keyCode;
         if (key == 13) {
             for (var i = 0; i < nomes.length; i++) {
-                // if the name is equal to the input value then print it.
+              //console.log(nomes[i].innerHTML);
                 if (nomes[i].innerText == value) {
-                    // dentro do if local storage e modificar o html de bianca
                     section.style.display = "none";
-                    // get the first string of the value.
                     var str = value.split(" ");
                     const nova =  
                     `<div class = "tela_main">
@@ -29,12 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else { 
                     section.style.display = "block";
                     section.innerHTML = "Não temos resultado para a pesquisa :(";
-                    // make the text in the center of the screen.
                     section.style.textAlign = "center";
 
             }
-        }
-        var btn = document.createElement("BUTTON");
+            var btn = document.createElement("BUTTON");
         var t = document.createTextNode("Refresh");
         btn.appendChild(t);
         btn.style.position = "absolute";
@@ -51,7 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(btn);
         btn.onclick = function() {
             location.reload();
-    }
+        }
+            }
 }
 
 
