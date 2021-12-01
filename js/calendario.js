@@ -15,7 +15,7 @@ const templateRow = `
 
 function templateHorario (horario, livre) {
   return `
-  <div class="${livre ? '' : 'disabled '}horario">
+  <div class="${livre ? '' : 'disabled'} horario">
     <p>${horario}</p>
   </div>
   `
