@@ -23,12 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>`;
                     document.querySelector(".tela3").innerHTML += nova;
                 } 
-            }
-            // print a message if no match is found
+              }
             if (value != "") {
                 section.style.display = "none";
                 var btn = document.createElement("BUTTON");
-                    var t = document.createTextNode("Refresh");
+                    var t = document.createTextNode("Não temos resultado para a pesquisa :(");
                     btn.appendChild(t);
                     btn.style.position = "absolute";
                     btn.style.top = "40%";
@@ -70,10 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.body.appendChild(btn);
                 btn.onclick = function() {
                     location.reload();
-                }
-                
+                } 
             }
-          }
+        }
     });
 });
 
