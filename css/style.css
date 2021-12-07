@@ -32,13 +32,12 @@
   padding-right:2rem;}
 .botao{
     color:black;
-    margin-right:0.7rem;
+    margin-right:0.5rem;
 }
 
 body {
-  font-family:'Open Sans','Roboto', sans-serif;
+  font-family: 'Open Sans','Roboto', sans-serif;
   background-color: var(--color-1);
-
 }
 
 /* INDEX */
@@ -111,6 +110,9 @@ main#index > .nome {
 }
 
 #calendario > nav > #title > a {
+  background-color: var(--color-2);
+  padding: 0 1rem 0 1rem;
+  border-radius: 1rem;
   font-size: 1.3376rem;
   text-decoration: none;
   color: black;
@@ -193,13 +195,29 @@ display: flex;
 flex-direction: row;
 }
 .section6 img{
-width: 1.2rem;
+width: 1rem;
 height: 1.2rem;
-margin-left:1rem;
 }
 .texto6 {
 margin-left:0.5rem;
 } 
+
+.barra2{
+  margin-top: 0.1rem;
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  background-color: var(--color-2);
+}
+
+.adicionar {
+  background-color: var(--color-2);
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
 
 /* PÁGINA DAS Cronograma */
 .client-info {
@@ -340,10 +358,34 @@ margin-left:0.5rem;
 }
 
 .voltar {
-  margin-left: 1rem;
-  border: 0.2rem solid var(--color-3);
-  text-decoration: none;
   color: #000;
+}
+.voltar img {
+  margin-top: 0.2rem;
+  width: 1rem;
+  height: 1rem;
+}
+.header3 {
+  background-color: var(--color-4);
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+  width:100%;
+  height:5rem;
+  padding-left: 1rem;
+}
+
+.headernome2 {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.header3 h2{
+  font-size: 1rem ;
+
 }
 
 
@@ -459,6 +501,11 @@ margin-left:0.5rem;
   width: 100%;
 }
 
+.caret {
+  font-weight: bold;
+  color: black;
+}
+
 .dot {
   position: relative;
   left: 0;
@@ -497,19 +544,19 @@ margin-left:0.5rem;
   text-decoration: none;
 }
 
-#pagina-calendario > div#seletor-horarios {
+#pagina-calendario > div#container-seletor {
   width: 100%;
   margin-top: 1em;
 }
 
-#pagina-calendario > div#seletor-horarios > .row-horarios {
+div#seletor-horarios > .row-horarios {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 
-#pagina-calendario > div#seletor-horarios > .row-horarios > .horario {
+div#seletor-horarios > .row-horarios > .horario {
   background-color: var(--color-4);
   width: 100%;
   margin: 0.2em;
