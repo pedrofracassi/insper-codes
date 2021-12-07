@@ -18,6 +18,18 @@
     height: 5rem;
     padding-left: 1rem;
 }
+.header1_2 {
+  background-color: var(--color-4);
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height: 5rem;
+  padding-left: 1rem;
+}
+.imgmais{
+  padding-right:2rem;}
 .botao{
     color:black;
     margin-right:0.7rem;
@@ -691,4 +703,26 @@ margin-left:0.5rem;
 .txtb{
   font-weight:bold;
   font-size:large;
+}
+
+.colunaprincipal2{
+  display: flex-start;
+  flex-direction: column;
+  padding:2rem;
+  
+}
+.Tipoproduto{
+  padding: 0.2rem;
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 1rem 5rem;
+  text-align: center;
+  margin: 1rem;
+  background-color: var(--color-3);
+}
+.entrada1{
+  width: 80%;
+}
+.entrada2{
+  width: 80%;
 }
