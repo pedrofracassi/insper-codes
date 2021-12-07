@@ -29,10 +29,19 @@
   padding-left: 1rem;
 }
 .imgmais{
-  padding-right:2rem;}
+  padding-right:2rem;
+}
+
 .botao{
     color:black;
     margin-right:0.5rem;
+}
+.imgv{
+  width:1rem;
+  height:1rem;
+}
+.imgv src{
+  padding-top: 1rem;
 }
 
 body {
