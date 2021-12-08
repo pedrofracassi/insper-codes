@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (value != "") {
                 section.style.display = "none";
                 var btn = document.createElement("BUTTON");
-                    var t = document.createTextNode("Não temos resultado para a pesquisa :(");
+                    var t = document.createTextNode("Refresh");
                     btn.appendChild(t);
                     btn.style.position = "absolute";
                     btn.style.top = "40%";
